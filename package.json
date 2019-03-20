@@ -5,6 +5,9 @@
   "author-uri": "https://github.com/rytotul",
   "description": "Scrapes OpenLoad for streaming links",
   "main": "index.js",
+  "engines": {
+    "node": "8.11.4"
+  },
   "scripts": {
     "start": "node main.js",
     "test": "node main.js"

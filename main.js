@@ -28,10 +28,10 @@ router.route('/:id').get( (req, res) => {
     .catch(error => console.error('Search failed:', error));
   }
 
-  const streamLink = async id => {
+  async function streamLink() {
     let data = await getID();
     let stream = `https://openload.co/stream/${data}?mime=true`
-    console.log(stream);
+    //console.log(stream);
     res.json({Link: `${stream}`});
     //return data;
   };
