@@ -1,0 +1,17 @@
+{
+  "name": "openload-scrape",
+  "version": "1.0.0",
+  "author": "Rakibul Yeasin",
+  "author-uri": "https://github.com/rytotul",
+  "description": "Scrapes OpenLoad for streaming links",
+  "main": "index.js",
+  "scripts": {
+    "strat": "node index.js",
+    "test": "node index.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "nightmare": "^3.0.1"
+  }
+}
