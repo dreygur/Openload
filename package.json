@@ -6,8 +6,8 @@
   "description": "Scrapes OpenLoad for streaming links",
   "main": "index.js",
   "scripts": {
-    "strat": "node index.js",
-    "test": "node index.js"
+    "start": "node main.js",
+    "test": "node main.js"
   },
   "keywords": [],
   "license": "ISC",
