@@ -24,11 +24,11 @@ async function getID() {
                 .catch(error => console.error('Search failed:', error));
 }
 
-const series = async id => {
+const streamLink = async id => {
     let data = await getID();
     let stream = `https://openload.co/stream/${data}?mime=true`
     console.log(stream);
     //return data;
 };
 
-series();
+streamLink();
