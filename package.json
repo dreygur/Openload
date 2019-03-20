@@ -12,6 +12,15 @@
   "keywords": [],
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.4",
     "nightmare": "^3.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rytotul/Openload.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rytotul/Openload/issues"
+  },
+  "homepage": "https://github.com/rytotul/Openload#readme"
 }
