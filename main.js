@@ -8,9 +8,9 @@ const night = new Nightmare();
 
 const port = process.env.PORT || 3000;
 
-var router = express.Router();
-router.get('/', (req, res) => res.json({ message: 'Welcome User!' }));
-router.route('/:id').get( (req, res) => {
+//var router = express.Router();
+app.get('/', (req, res) => res.json({ message: 'Welcome User!' }));
+app.get('/scrape/:id', (req, res) => {
   let url = 'https://openload.co/f/' + req.params.id;
 
   async function getID() {
@@ -39,7 +39,7 @@ router.route('/:id').get( (req, res) => {
   //res.send(`ID: ${req.params.id}`);
 });
 
-app.use('/', router);
+//app.use('/', router);
 
 //app.get('/', (req, res) => res.send('Hello World!'));
 

@@ -10,13 +10,15 @@
   },
   "scripts": {
     "start": "node main.js",
-    "test": "node main.js"
+    "test": "nodemon main.js",
+    "dev": "nodemon main.js"
   },
   "keywords": [],
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
-    "nightmare": "^3.0.1"
+    "nightmare": "^3.0.1",
+    "nodemon": "^1.18.10"
   },
   "repository": {
     "type": "git",
