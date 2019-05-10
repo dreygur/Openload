@@ -4,6 +4,10 @@
 
 # Openload
 
+> I visualize a time when we will be to robots what dogs are to humans, and I’m rooting for the machines.   
+> _-Claude Shannon_
+
+
 ## To-Do:
 - Implement Client side render & grabbing
 - Implement Openload api
