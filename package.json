@@ -16,7 +16,7 @@
   "keywords": [],
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "nightmare": "^3.0.1",
     "nodemon": "^1.18.10"
   },
